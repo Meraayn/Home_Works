@@ -1,2 +1,2 @@
-console. log('Hello World');
-console. log('Hello JS3');
+console. log('Session_1');
+
