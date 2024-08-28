@@ -33,15 +33,15 @@
 
 //!Task 5
 
- let userName = "Naruto Shipuden"
+//  let userName = "Naruto Shipuden"
 
- let counter = userName.length;
+//  let counter = 0;
 
- while (counter >= 0) {
-    console.log(userName[counter]);
+//  while ( counter < userName.length) {
+//     console.log(userName[counter]);
 
-    counter--;
- }
+//     counter++;
+//  }
 
 
 
@@ -53,8 +53,27 @@
 
 //  let counter = userName.length;
 
-//  while (counter >= 0) {
+//  for ( let counter = userName.length; counter >= 0; counter--) {
 //     console.log(userName[counter]);
 
-//     counter--;
+    
 //  }
+
+
+ //!TASK 7
+
+ let counter = 0;
+let string = ``
+while (counter < 3) {
+    let count = 0;
+
+    while (count <= 9) {
+        string = string + '*' ;
+        count++;
+    }
+
+    string = string + '\n';
+    counter++;
+}
+
+console.log(string);
